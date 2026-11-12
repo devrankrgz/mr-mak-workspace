@@ -31,6 +31,10 @@
         {
           "name": "Skills & workflow",
           "path": "workflow.md"
+        },
+        {
+          "name": "Dev log",
+          "path": "devlog.html"
         }
       ],
       "status": "active",

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-mak-report="document">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Galeri — Dev log</title>
+<link rel="stylesheet" href="../_shared/report.css"><link rel="stylesheet" href="devlog.css">
+<script defer src="../_shared/report.js"></script><script defer src="devlog.js"></script></head>
+<body><main class="container">
+<header class="intro"><div><p class="eyebrow">GALERI / DEVELOPMENT JOURNAL</p><h1>A record of the making.</h1><p class="lede">Decisions, visual studies and verified progress, gathered as the game takes shape.</p></div><a class="brief-link" href="index.html">Visual brief ↗</a></header>
+<div class="overview"><div><strong>Day 0</strong><span>Design & workspace foundation</span></div><div><strong>4 milestones</strong><span>Recorded 12–13 November 2026</span></div><div><strong>Next: Unreal</strong><span>Setup and first playable blockout pending</span></div></div>
+<form class="filters" aria-label="Filter milestones" onsubmit="return false">
+<label>Search<input id="search" type="search" placeholder="Find a milestone…"></label>
+<label>Area<select id="area"><option value="all">All areas</option><option value="direction">Direction</option><option value="visual">Visual studies</option><option value="production">Production</option></select></label>
+<label>Kind<select id="kind"><option value="all">All kinds</option><option value="design">Design</option><option value="visual">Visual study</option><option value="setup">Setup</option><option value="verification">Verification</option></select></label>
+<label>Order<select id="order"><option value="oldest">Oldest first</option><option value="newest">Latest first</option></select></label>
+<button type="reset">Reset</button></form>
+<p class="result" id="result" role="status" aria-live="polite">4 milestones · Open a milestone to read its evidence.</p>
+<div class="board"><section class="lane" data-lane="direction" aria-labelledby="lane-direction"><header><span class="lane-number">01</span><div><h2 id="lane-direction">Direction</h2><p>Decisions & game design</p></div></header><div class="track"><article class="milestone" data-area="direction" data-kind="design" data-date="2026-11-12" id="milestone-1">
+<div class="stamp"><time datetime="2026-11-12">12–13 November</time><span>Design defined</span></div>
+<details><summary>The gallery becomes the game</summary><p>The shelved Mind gallery idea was selected for a compact investigation: eight paintings, one ceremony and player-led deduction.</p><p class="detail">Limited movement, one mind read per visit and the king’s single question are recorded in the design. This is a design milestone, not implemented gameplay.</p><a href="design.md">Read the agreed design ↗</a></details>
+</article></div></section><section class="lane" data-lane="visual" aria-labelledby="lane-visual"><header><span class="lane-number">02</span><div><h2 id="lane-visual">Visual studies</h2><p>Spaces & reference work</p></div></header><div class="track"><article class="milestone" data-area="visual" data-kind="visual" data-date="2026-11-13" id="milestone-2">
+<div class="stamp"><time datetime="2026-11-13">13 November</time><span>Prepared</span></div>
+<details><summary>Two spaces, one event</summary><p>Original diagrams now show the white marble gallery, ceremony layout and Mind World.</p><p class="detail">These are schematic design studies. Camera positions, exact staging and final art remain open; no image is an Unreal capture.</p><a href="index.html">Open the visual brief ↗</a></details>
+</article></div></section><section class="lane" data-lane="production" aria-labelledby="lane-production"><header><span class="lane-number">03</span><div><h2 id="lane-production">Production</h2><p>Setup & verification</p></div></header><div class="track"><article class="milestone" data-area="production" data-kind="setup" data-date="2026-11-13" id="milestone-3">
+<div class="stamp"><time datetime="2026-11-13">13 November</time><span>Prepared</span></div>
+<details><summary>The project has a working home</summary><p>The Mr. Mak fork now contains the visual brief, character board, production board and the agreed design.</p><p class="detail">The original interface and twenty project skills were preserved. The browser preview runs locally; direct card editing still needs desktop setup.</p><a href="https://github.com/devrankrgz/mr-mak-workspace/commit/281b31a5aff5d04976557ab047f6c52b8bcd146f">View the workspace commit ↗</a></details>
+</article><article class="milestone" data-area="production" data-kind="verification" data-date="2026-11-13" id="milestone-4">
+<div class="stamp"><time datetime="2026-11-13">13 November</time><span>Verified</span></div>
+<details><summary>Workspace checks passed</summary><p>The frontend build, template checks, skill synchronization check and all nine asset-delivery tests passed.</p><p class="detail">The report was checked at 390 px and 768 px, in light and dark themes, with image preview controls. Asset tests were rerun outside the restricted process environment. These checks verify the Workspace, not the game.</p><a href="workflow.md">Read the working setup ↗</a></details>
+</article></div></section></div>
+<p id="empty" hidden>No milestones match these filters. Try another term or reset the filters.</p>
+<aside class="next"><span class="eyebrow">UP NEXT · NOT YET COMPLETE</span><h2>From the workspace to the engine.</h2><p>Verify the Unreal installation, establish the editor connection, and block out the gallery and ceremony before recording the first gameplay milestone.</p></aside>
+<footer><p>Entries are maintained with the project files. No automatic Git or editor tracking is enabled. Dates follow the project record; unknown hours and durations are omitted.</p><p>This journal avoids the mystery’s solution. Linked design documents may contain spoilers.</p></footer>
+</main></body></html>

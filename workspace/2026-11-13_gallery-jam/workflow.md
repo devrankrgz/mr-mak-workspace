@@ -25,6 +25,7 @@ Use `image-reference-workflow`, `materials-to-game`, `motion-reference-workflow`
 4. Put new media in this project's `media/` directory, with its source and license record.
 5. Label concept art, diagrams and actual engine captures distinctly.
 6. Update the registry date and record what was verified.
+7. Add a dated milestone to **Dev log** (`devlog.html`) after meaningful progress. Keep stable IDs, an area and kind, the observed result and an evidence link. Never invent hours or durations. Pending work belongs in the production board, not completed milestones. Update the overview count when adding entries; filtering and ordering use the authored dates.
 
 ## Browser preview versus desktop editing
 

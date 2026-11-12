@@ -4,6 +4,7 @@ The owner approved a compact detective game for the 2026 Epic AI MegaJam. This r
 
 Start with [the design](../../workspace/2026-11-13_gallery-jam/design.md). The complete project card is registered as `gallery-jam` in `workspace/workspace.json`.
 
+- [Dev log](../../workspace/2026-11-13_gallery-jam/devlog.html)
 - [Visual brief](../../workspace/2026-11-13_gallery-jam/index.html)
 - [Character board](../../workspace/2026-11-13_gallery-jam/characters.card.json)
 - [Production board](../../workspace/2026-11-13_gallery-jam/production.card.json)
