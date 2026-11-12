@@ -1,0 +1,51 @@
+{
+  "format": "mrmak-card",
+  "version": 1,
+  "template": "research",
+  "title": "The people around the king",
+  "summary": "Character roles from the agreed design. **No final character art or dialogue exists yet.** Established actions and possible accusations are deliberately separated. “Review” means design recorded, not an implemented asset.",
+  "items": [
+    {
+      "id": "king",
+      "title": "The king",
+      "body": "**Accepted role:** victim in the ceremony; skeletal-headed host in the gallery.\n\nHis only question: *How did I die, and who killed me?*\n\n**Mind access:** blocked. He is the only unreadable character.\n\n**Production needs:** stand, take a grape, walk, eat, show distress and collapse; seated gallery pose. Final appearance is not designed.",
+      "status": "review"
+    },
+    {
+      "id": "queen",
+      "title": "The queen",
+      "body": "**Established suspicion:** she has considered poisoning the king; his meals have been sent with her approval.\n\nIntent must not be treated as proof of the fatal act. Thoughts must reflect what she actually knows.\n\n**Open:** visual design, exact thoughts and event timing.",
+      "status": "idea"
+    },
+    {
+      "id": "aide",
+      "title": "The aide",
+      "body": "**Observed action:** fills the king’s cup.\n\n**Possible player theory:** poison in the drink, perhaps arranged with the count. Neither poisoning nor the conspiracy is established as fact.\n\n**Open:** name, motive, thought text and animation.",
+      "status": "idea"
+    },
+    {
+      "id": "count",
+      "title": "The count",
+      "body": "**Answer candidate:** the count conspired with the aide to poison the king.\n\nThis is a possible deduction, not a confirmed plot event. Do not write omniscient thoughts that turn a hypothesis into fact.\n\n**Open:** identity, behavior and whether any conspiracy was actually attempted.",
+      "status": "idea"
+    },
+    {
+      "id": "guards",
+      "title": "The guards",
+      "body": "**Accepted action:** intervene, surround the king and walk him away. They do not pick him up or carry him.\n\n**Player theory:** a guard stabbed him from behind in the chaos. This is not established fact.\n\n**Open:** guard count, exact routes, thought groups and coordinated animations.",
+      "status": "idea"
+    },
+    {
+      "id": "attackers",
+      "title": "The attackers",
+      "body": "**Accepted action:** several people rush forward from the crowd. A crossbow is heard and a knife is thrown toward the king.\n\nThe attack is real but does not cause his death.\n\n**Open:** identities, projectile paths, exact choreography and thoughts.",
+      "status": "idea"
+    },
+    {
+      "id": "families",
+      "title": "The wedding party & court",
+      "body": "**Accepted setting:** the prince is marrying; the royal family, bride’s family and state officials sit at the raised table. Other guests stand beyond an open buffer.\n\n**Open:** crowd size, distinct readable characters, reactions and names. Keep the jam scope compact.",
+      "status": "idea"
+    }
+  ]
+}

@@ -1,6 +1,43 @@
 {
   "entities": [
     {
+      "id": "gallery-jam",
+      "title": "Galeri · A Royal Mystery",
+      "description": "Eight paintings. One fatal ceremony. A visual development hub for the 2026 Epic AI MegaJam.",
+      "type": "group",
+      "category": "project",
+      "created": "2026-11-13",
+      "updated": "2026-11-13",
+      "folder": "2026-11-13_gallery-jam",
+      "steps": [
+        {
+          "name": "Visual brief",
+          "path": "index.html"
+        },
+        {
+          "name": "Characters",
+          "path": "characters.card.json",
+          "viewer": "card"
+        },
+        {
+          "name": "Production",
+          "path": "production.card.json",
+          "viewer": "card"
+        },
+        {
+          "name": "Design",
+          "path": "design.md"
+        },
+        {
+          "name": "Skills & workflow",
+          "path": "workflow.md"
+        }
+      ],
+      "status": "active",
+      "pinned": true,
+      "defaultStep": 0
+    },
+    {
       "id": "my-dream-game",
       "title": "My Dream Game",
       "description": "Mr. Mak 64: a small Sky Islands adventure, with character studies, world layouts and a development board.",

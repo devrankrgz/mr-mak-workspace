@@ -1,0 +1,63 @@
+{
+  "format": "mrmak-card",
+  "version": 1,
+  "template": "research",
+  "title": "From design to a playable build",
+  "summary": "A proposed production order, not a claim that gameplay is implemented. **Current focus: engine setup and the earliest possible packaged build.** Update each entry only with observed progress.",
+  "items": [
+    {
+      "id": "workspace",
+      "title": "Visual development hub",
+      "body": "**Prepared:** project brief, original scene diagrams, character board, production board and skill guide.\n\nNo game runtime or finished art is implied. This board records planned work rather than starting it.",
+      "status": "review"
+    },
+    {
+      "id": "engine",
+      "title": "01 / Unreal + MCP",
+      "body": "Install the selected Linux engine build and verify editor launch. Enable the built-in Unreal MCP toolsets and confirm a real read call from Codex.\n\n**Known state:** download was started by the owner; extraction and connection have not been verified.",
+      "status": "in-progress"
+    },
+    {
+      "id": "package",
+      "title": "02 / First Windows package",
+      "body": "Use the same Unreal version on the Windows packaging host. Produce and run a minimal standalone build early.\n\n**Pass:** it starts on Windows without development tools. Avoid leaving this until delivery day.",
+      "status": "idea"
+    },
+    {
+      "id": "blockout",
+      "title": "03 / Two-space blockout",
+      "body": "Create the marble gallery, central throne, eight painting interactions, raised ceremony table, open buffer and standing crowd area.\n\n**Pass:** bounded movement and return transitions are usable. Exact viewpoints remain proposals.",
+      "status": "idea"
+    },
+    {
+      "id": "timeline",
+      "title": "04 / One replayable ceremony",
+      "body": "Stage the shared event with grape action, attackers, sound cues, guard ring and collapse.\n\n**Pass:** replaying from every position preserves event timing. Guards walk with the king, never carry him.",
+      "status": "idea"
+    },
+    {
+      "id": "mind",
+      "title": "05 / Mind world",
+      "body": "Pause the event and timer, show a top-down character selection, then 3–4 thought nodes for one character.\n\n**Pass:** king excluded; other in-area characters eligible; close resumes correctly; one use resets per visit.",
+      "status": "idea"
+    },
+    {
+      "id": "deduction",
+      "title": "06 / Statements & final answer",
+      "body": "Author observation/interpretation statements, answer unlock mappings and confirmation.\n\n**Pass:** answering after one visit is possible; cancel works; incorrect commitment clears all progress; correct answer finishes.",
+      "status": "idea"
+    },
+    {
+      "id": "polish",
+      "title": "07 / Art, sound & blind playtest",
+      "body": "Produce approved art and animations, integrate audible attack cues, then watch a new player investigate without explanation.\n\n**Pass:** the real cause is observable and inferable; no mandatory per-painting clue tour. Record source licenses.",
+      "status": "idea"
+    },
+    {
+      "id": "delivery",
+      "title": "08 / Human submission",
+      "body": "Create the English game description, asset/tool credits and 30–60 second 1080p gameplay video. Test the final packaged build.\n\n**Recorded deadline:** 16 November 2026 at 04:59 Europe/Istanbul. Verify on the jam page. The human participant performs the final submission.",
+      "status": "idea"
+    }
+  ]
+}
